@@ -1,0 +1,112 @@
+body {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+header,
+p,
+table,
+#map,
+footer {
+  width: 480px;
+  margin: 0 auto;
+}
+
+#details {
+	color: black;
+	border: solid 1px #980c10;
+	background: #FFCC00;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFCC00), to(#FFE47A));
+	background: -moz-linear-gradient(top,  #FFCC00,  #aa1317);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFCC00', endColorstr='#aa1317');
+}
+
+a {
+  color: #900;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 900%;
+  letter-spacing: -.06em;
+  margin-bottom: 10px;
+}
+
+header h2,
+header h3 {
+  font-weight: normal;
+  margin-bottom: .5em;
+}
+
+header h2 {
+  font-size: 200%;
+}
+
+header h3 {
+  font-size: 175%;
+  color: #900;
+}
+
+article p {
+  margin: 1em auto;
+  line-height: 125%;
+}
+
+article table {
+  margin: 1em auto;
+}
+
+article table a {
+  color: white;
+}
+
+article th,
+article td {
+  text-align: left;
+  padding: .25em 0;
+}
+
+article td {
+  padding-left: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 3em 0;
+}
+
+.amp {
+  color: #666;
+  font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+#sponsors {
+  font-weight: normal;
+  padding: 1em;
+  color: white;
+  margin-top: 2em;
+  text-align: left;
+  background: #999;
+  text-align: center;
+}
+
+#sponsors li {
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+#sponsors p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#sponsors a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
