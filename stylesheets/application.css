@@ -12,16 +12,18 @@ footer {
 }
 
 #details {
-	color: black;
-	border: solid 1px #980c10;
-	background: #FFCC00;
-	background: -webkit-gradient(linear, left top, left bottom, from(#FFCC00), to(#FFE47A));
-	background: -moz-linear-gradient(top,  #FFCC00,  #aa1317);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFCC00', endColorstr='#aa1317');
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	border-right: none;
+	border-left:  none;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
 }
 
 a {
-  color: #900;
+  color: #f78d1d;
 }
 
 header {
@@ -46,7 +48,7 @@ header h2 {
 
 header h3 {
   font-size: 175%;
-  color: #900;
+  color: #f78d1d;
 }
 
 article p {
